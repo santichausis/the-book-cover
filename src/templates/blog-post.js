@@ -43,7 +43,7 @@ const Post = ({ data, pageContext }) => {
   return (
     <Layout className="page">
       <SEO
-        title={frontmatter.title}
+        title={frontmatter.title + " | The Book Cover"}
         description={frontmatter.description ? frontmatter.description : excerpt}
         image={Image}
         article={true}

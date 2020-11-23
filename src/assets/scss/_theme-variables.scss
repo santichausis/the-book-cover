@@ -11,13 +11,13 @@ $breakpoint-xl: 1200px;
   --font-size-small: 12px;
   
   --primary-color: #5C2941;
-  --header-bg: #5C2941;
+  --header-bg: #181818;
 
   --home-link-color: #A1613F;
   --home-link-hover-color:  var(--primary-color);
 
-  --button-color: #E5C3D3;
-  --button-alternate-color: #5C2941;
+  --button-color: #e9e1e5;
+  --button-alternate-color: #2e2e2e;
 
   --post-link-color: #0F070B;
 
@@ -26,7 +26,7 @@ $breakpoint-xl: 1200px;
   --text-color-meta: rgba(0,0,0,0.5);
 
   --label-text: rgba(0,0,0,0.5);
-  --input-focus-border: #83AAAC;
+  --input-focus-border: #e9e1e5;
   
   // CSS Grid Utility
   --grid-gap: 30px; 
