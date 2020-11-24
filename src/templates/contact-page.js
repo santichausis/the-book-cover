@@ -24,18 +24,19 @@ export const pageQuery = graphql`
 `
 
 const Contact = ({data}) => {
-  const { markdownRemark, site } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
 
   return  (
     <Layout className="contact-page">
       <SEO 
-        title={frontmatter.title}
-        description={frontmatter.title + " " + site.siteMetadata.title}
+        title="Contacto | Portadas de libros"
+        description="Ponte en contacto con Portadas de libros"
       />
       <div className="wrapper">
-        <h1>{frontmatter.title}</h1>
-        <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
+        <h1>Estemos en contacto</h1>
+        <div className="description">
+        Si quieres dejar algún comentario sobre nuevos posteos o solicitar alguna portada en especial solo hazlo saber.
+        También puedes enviarnos mensajes por <a href="https://twitter.com/stackrole">Twitter.</a>
+        </div>
         <form className="contact-form" action="/thanks" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact" />
           <p>

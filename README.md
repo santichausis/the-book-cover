@@ -19,4 +19,13 @@
   - Index Page
   - Post Card
   
+# 24/11
 
+  - Navigation
+  - Deleted About
+  - Contact
+  - Contact Page
+  - Config.yml
+  - Add Explora Portadas
+  - Deleted LICENSE
+  -  
