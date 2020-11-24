@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "The Book Cover",
+    "title": "The books covers you will love | The Book Cover ",
     "titleTemplate": "%s",
-    "description": "The books covers you will love | The Book Cover",
+    "description": "The Book Cover is a Blog about the cover design. The complete process and what the designer want to communicate. Made with ❤ by Santi",
     "siteUrl": "https://the-book-cover.netlify.app/",
     "image": "/assets/stackrole.png",
-    "iconimage": "/assets/stackrole.png",
+    "iconimage": "/assets/gatsby-icon.png",
     "twitterUsername": "@stackrole"
   },
   "ga": "UA-XXXXXXXXX-X"
