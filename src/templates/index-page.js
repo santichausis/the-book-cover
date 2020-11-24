@@ -36,23 +36,23 @@ export const pageQuery = graphql`
 
 const HomePage = ({ data }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter } = markdownRemark
   const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.fluid : ""
 	return (
 		<Layout>
       <SEO/>
       <div className="home-banner grids col-1 sm-2">
         <div>
-          <h1 class="title">{frontmatter.title}</h1>
-          <p class="tagline">{frontmatter.tagline}</p>
-          <div className="description" dangerouslySetInnerHTML={{__html: html}}/>
-          <Link to={frontmatter.cta.ctaLink} className="button">{frontmatter.cta.ctaText}<span class="icon -right"><RiArrowRightSLine/></span></Link>
+          <h1 class="title">Portadas de libros</h1>
+          <div className="description" >Acá vas a encontrar los mejores análisis de portadas de libros.
+            </div>
+          <Link to="/blog" className="button">Blog <span class="icon -right"><span role="img" aria-label="icon book">📝</span><RiArrowRightSLine/></span></Link>
         </div>
         <div>
           {Image ? (
             <Img 
               fluid={Image} 
-              alt={frontmatter.title + ' - Featured image'}
+              alt={frontmatter.title + ' - Tapas de libros'}
               className="featured-image"
             />
           ) : ""}
