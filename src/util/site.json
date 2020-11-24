@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "The books covers you will love | The Book Cover ",
+    "title": "Las mejores portadas | Portadas de libros",
     "titleTemplate": "%s",
-    "description": "The Book Cover is a Blog about the cover design. The complete process and what the designer want to communicate. Made with ❤ by Santi",
+    "description": "En portadas de libros vas a encontrar un análisis de las mejores portadas del mundo, libros de aventura, ciencia ficción, aventura y muchos géneros más. ",
     "siteUrl": "https://the-book-cover.netlify.app/",
     "image": "/assets/stackrole.png",
     "iconimage": "/assets/gatsby-icon.png",
